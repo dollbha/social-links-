@@ -1,0 +1,69 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;    
+}
+.container{
+    background-color: black;
+    height: 90vh;
+    width: 90vw;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.bg-container{
+    background-color: hsl(0, 0%, 12%);
+    height: 70vh;
+    width: 70vw;
+    border-radius: 5px;
+    align-items: center;
+}
+.alignimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.imageSize{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.heading{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.sub-heading{
+    color: hsl(75, 94%, 57%);
+    font-size: 9px;
+    font-weight: bold;
+    text-align: center;
+}
+.subhead{
+    font-size: small;
+    color: white;
+    text-align: center;
+}
+.Github{
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 5px;
+    width: 18vw;
+    height: 6vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
